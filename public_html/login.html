@@ -13,7 +13,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" type ="text/css" href="css/custom.css">
 </head>
 
 <body>
@@ -58,20 +58,27 @@
       </div>
     </div>
 
-	<form>
-	    Username: <br>
-	    <input type="text" name="username"><br>
-	    Password:<br>
-	    <input type="password" name="password"><br><br>
-	    <input type="submit" value="Submit">
-	</form>
-	<br>
+	<Form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  
+  <button type="submit" class="btn btn-danger">Submit</button>
+</form>
+	
+	
 	
 <div>
         <a href="index.html"><img src="img/pear.png" alt="pear logo"></a>
     </div>
 	<footer>Copyright 2016 &copy; Healthy Family Recipes.</footer>
-	
-</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
 
 </html>
